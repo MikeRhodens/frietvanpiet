@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+    font-family: bebasneue;
+    src: url("../fonts/BebasNeue.otf") format("opentype");
+}
+body {
+    font-family: bebasneue;
+}
+
+/* contact */
+.contactRedSquare {
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: #c72417;
+}
+
+.contectRedSquareRight {
+    color: white;
+    padding-top: 3%;
+    padding-left: 50%;
+    width: 80%
+}
+
+.contactWhitesquareLeft {
+    position: absolute;
+    padding-top: 20px;
+    width: 40%;
+}
+
+.contactWhitesquareRight {
+    padding-top: 25%;
+    width: 50%;
+    padding-left: 50%;
+}
+
+.contactnumber {
+    width: 193px
+}
+
+.contactOrder {
+    resize: none;
+    width: 393px;
+}
+
+.contactname {
+    float: left;
+    width: 193px;
+    margin-right: 5px;
+}
+.contactname,.contactnumber,.contactOrder{
+    border-color: #c72417;
+    border-width: 2px;
+}
+.contactWhitesquaretext {
+    color: #c72417;
+}
+
+
+
+.contectbutton:hover {
+    background-color: #c72417 !important;
+}
+
+
+
+/*menu bar*/
+.navbar {
+    height: 85px;
+    background-color: white;
+    border-bottom: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    box-shadow: 1px;
+}
+
+.nav > li > a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: darkred;
+}
+
+.navbar-inverse .navbar-nav > li > a:active {
+    color: darkred;
+}
+
+.navbrand {
+    margin-top: 25px;
+}
+.navActive {
+    color: white !important;
+    height:150px;
+    background: radial-gradient(ellipse 250px 150px at 50% 100%, transparent 100px, #D8231A 50px);
+}
+/* end nav bar */
+.footerlogo {
+    padding-top: 100px;
+}
+
+.footer {
+    background-color: #c72417;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 85px;
+
+}
+
+.footer h4 {
+    color: #ffef00;
+}
+
+/*social media* icons*/
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #ffef00;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #ffef00;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #ffef00;
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color: #c72417;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    background: #ac1b14;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #f5ca04;
+    text-decoration: none;
+}
+
+.footerlogo {
+    padding-top: 0px;
+}
+
+.footerlogo {
+    padding-top: 0px;
+}
+
+.copyright {
+    background-color: #ac1b14;
+    opacity: 50%;
+    padding-top: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.jumbotron {
+
+    height: 500px;;
+    background-image: url(../img/jumbotron_img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.jumbotron h1, .jumbotron p {
+    text-align: center;
+    color: white;
+
+}
+
+.footerlogo {
+    text-align: center;
+}
+
+.band {
+    background-image: url(../img/Rechthoek.gif);
+    background-repeat: repeat-x;
+    margin-top: -30px;
+    padding-top: 20px;
+}
+
+.testimonials {
+    height: 600px;
+    padding: 10px;
+    margin-top: 200px;
+    text-align: center;
+    background-image: url(../img/testimonials.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bestellingen {
+    padding-left: 20%;
+    font-size: large;
+
+}
+.zelfgemaakt{
+    padding-top: 160px;
+}
+.zelfgemaaktleft{
+    width: 45%;
+    float: left;
+}
+.zelfgemaaktright{
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    float: right;
+}
+.zelfgemaaktrighttext{
+    vertical-align: middle;
+}
+
+.custumcontent{
+    padding-top: 85px;
+}
+.home{
+    padding-top: 0!important;
+}
+.vierknop{
+    color: white;
+    background-color: darkred;
+    border-color: darkred;
+}
+.vierknop:hover{
+    background-color: darkred!important;
+    border-color: darkred!important;
+}
