@@ -296,3 +296,6 @@ a.socialIcon:hover, .socialHoverClass {
     background-color: darkred!important;
     border-color: darkred!important;
 }
+.navbar{
+    box-shadow: 5px 1px 3px #888888;
+}
