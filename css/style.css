@@ -57,8 +57,6 @@ body {
     color: #c72417;
 }
 
-
-
 .contectbutton:hover {
     background-color: #c72417 !important;
 }
@@ -96,10 +94,11 @@ body {
 .navbrand {
     margin-top: 25px;
 }
-.navActive {
+.navActive, .navActive:hover{
     color: white !important;
-    height:150px;
-    background: radial-gradient(ellipse 250px 150px at 50% 100%, transparent 100px, #D8231A 50px);
+    height:80px !important;
+    background-color: #D8231A!important;
+   /* background: radial-gradient(ellipse 250px 150px at 50% 100%, transparent 100px, #D8231A 50px);*/
 }
 /* end nav bar */
 .footerlogo {
@@ -298,4 +297,11 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .navbar{
     box-shadow: 5px 1px 3px #888888;
+}
+.panel-custom{
+    color: white !important;
+    background-color:#c72417 !important;
+}
+.border-color{
+    border-color: red !important;
 }

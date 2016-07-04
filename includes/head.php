@@ -1,5 +1,8 @@
 
 <link rel="shortcut icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/20483-200.png">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.css">

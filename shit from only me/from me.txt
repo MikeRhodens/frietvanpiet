@@ -1,9 +1,0 @@
-view/contact.php
-models/deletOrders.php
-models/Getorders.php
-includes/admin.php
-includes/head.php
-includes/models.php
-config/config.php
-config/database.php
-contact in de css/style.css

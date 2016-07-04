@@ -1,6 +1,6 @@
 <?php
-include 'config/config.php';
-include 'config/database.php';
+/*include 'config/config.php';
+include 'config/database.php';*/
 include 'includes/models.php';
 include 'includes/head.php';
 $action = (empty($_GET['action'])) ? '' : $_GET['action'];
@@ -11,7 +11,7 @@ switch ($action) {
         break;
     case 'snacks':
         include 'view/snacks.php';
-        break;
+      break;
     case 'frietvanpiet':
         include 'view/frietvanpet.php';
         break;
